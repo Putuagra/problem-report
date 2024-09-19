@@ -31,9 +31,7 @@ dt = Dynatrace(
 email_sender = os.getenv("EMAIL")
 password_sender = os.getenv("PASSWORD")
 telegram_token = os.getenv("TELEGRAM_TOKEN")
-# id_chat = os.getenv("ID_CHAT")
-# id_chat = "-4207697327"
-id_chat = "-4254531883"
+id_chat = os.getenv("ID_CHAT")
 timezone = 'Asia/Jakarta'
 
 def format_date(the_date):
